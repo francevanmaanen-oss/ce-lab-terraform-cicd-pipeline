@@ -26,6 +26,7 @@ resource "aws_vpc" "main" {
     Environment = var.environment
     ManagedBy   = "terraform"
     Pipeline    = "github-actions"
+    CostCenter  = "engineering"
   }
 }
 
